@@ -1,0 +1,108 @@
+body{
+	overflow: hidden;
+}
+#parent{
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+#mobile-top-nav,#mobile-bottom-nav{
+	display: none;
+}
+#topnav{
+	position: absolute;
+	top: 0px;
+	display: inline-flex;
+	background-color: #222200;
+	width: 150%;
+	height: 50px;
+	text-align: center;
+	color: #ffffff;
+	padding:15px 0px 0px 0px;
+	margin: 0px;
+}
+
+#content{
+	height: 100%;
+	width: 99%;
+	display: inline-flex;
+	margin-top:55px;
+}
+
+#input-icon-image {
+    position: relative;
+    bottom: 0px;
+    top: 11px;
+    left: 6%;
+    width: 10px;
+    height: 10px;
+    float: left;
+}
+
+#search-input {
+    width: 90%;
+    text-indent: 10px;
+    height: 50%;
+}
+#logo-container{
+	margin-top: 15px;
+	
+}
+#logo-pic{
+	width: 30px;
+	height: 30px;
+	padding-left: 20%;
+}
+
+
+#search{
+	margin-left: 0px;
+    padding: 0px;
+    width: 25%;
+}
+#nav-list {
+  width:50%;
+  list-style-type: none;
+  margin: 0 0 0 0;
+  padding-left: 5%;
+  display: inline-flex;
+}
+
+li{
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0px;
+	color: white;
+}
+
+#user-pic {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+}
+
+a {
+    display: inline-grid;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    vertical-align: baseline;
+}
+
+#left-content{
+	height: 100%;
+	width: 25%;
+}
+
+#middle-content{
+	height: 100%;
+	width: 50%;
+}
+
+#right-content{
+	height: 100%;
+	width: 25%;
+}

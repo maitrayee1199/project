@@ -1,0 +1,112 @@
+
+
+
+body,html{
+	overflow: hidden;
+}
+#parent{
+	width: 100%;
+	height: 100%;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+#mobile-top-nav{
+	width: 100%;
+	background-color: #2222aa;
+	display: inline-flex;
+}
+#user-pic {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 200%;
+    padding: 10px;
+}
+#search{
+	margin-left: 0px;
+    padding-top: 0px;
+    width: 80%;
+}
+#search-input {
+    width: 90%;
+    text-indent: 15px;
+    height: 60%;
+}
+#top{
+	display: none;
+}
+#mobile-bottom-nav{
+	display: block;
+	text-align: center;
+	color:white;
+}
+#message{
+  width: 15px;
+  height: 15px;
+  font-size:x-large;
+}
+#topnav{
+	display: none;
+}
+
+#content{
+	height: 85%;
+	width: 99%;
+	background-color: eeeeee;
+	display: inline-flex;
+	margin-top:0px;
+	margin-bottom: 0px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+#input-icon-image {
+    position: relative;
+    bottom: 0px;
+    top: 11px;
+    left: 20px;
+    width: 10px;
+    height: 10px;
+    float: left;
+}
+
+
+#logo-container{
+	
+}
+#logo-pic{
+	width: 20px;
+	height: 20px;
+	margin-left: 50px;
+	padding-left: 20px;
+	
+}
+
+#nav-list {
+  list-style-type: none;
+  margin: 0 0 0 0;
+  padding-left: 20px;
+  display: inline-flex;
+  width: 100%;
+  text-align: center;
+}
+
+li{
+	padding-left: 5%;
+	padding-right: 5%;
+	margin: 0px;
+}
+
+#left-content{
+	display: none;
+}
+
+#middle-content{
+	height: 100%;
+	width: 100%;
+	overflow-y: scroll;
+}
+
+#right-content{
+	display: none;
+}
